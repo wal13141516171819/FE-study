@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "cSpell.words": [
+    "Collada",
+    "GLTF",
+    "gotopath",
+    "idls",
+    "pixi",
+    "pnpm",
+    "preinstall",
+    "reduxjs",
+    "stylelint",
+    "threejs",
+  ],
+  "svg.preview.background": "transparent"
+}

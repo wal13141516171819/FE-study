@@ -1,0 +1,55 @@
+{
+  "name": "fe-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wal13141516171819/FE-study.git",
+  "author": "haijiang",
+  "license": "MIT",
+  "scripts": {
+    "commit": "yarn commit-check && git add . && git-cz",
+    "commit-check": "node ./scripts/commit-check.js"
+  },
+  "engines": {
+    "node": ">12 <17"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cz-commitlint": "^16.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "commitizen": "^4.2.4",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.0",
+    "stylelint": "^14.7.1",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-less": "^1.0.5",
+    "stylelint-order": "^5.0.0",
+    "typescript": "^4.4.4",
+    "postcss": "8",
+    "postcss-less": "^6.0.0"
+  },
+  "lint-staged": {
+    "*.ts(x)|*.js(x)|*.json$": [
+      "eslint --cache --fix",
+      "git add"
+    ],
+    "*.{css,sss,less,scss,sass}": [
+      "stylelint --fix --custom-syntax postcss-less",
+      "git add"
+    ]
+  }
+}

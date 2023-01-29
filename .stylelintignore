@@ -1,0 +1,14 @@
+**/node_modules/*
+dist/*
+test/*
+*.js
+*.jsx
+*.tsx
+*.ts
+*.json
+*.png
+*.eot
+*.ttf
+*.woff
+react-dat-gui.css
+normalize.css

@@ -1,0 +1,16 @@
+.vscode/*
+**/node_modules/*
+node_modules/*
+package.json
+assets
+out
+dist/*
+test/*
+types/*
+
+packages/assets/iconfont.js
+packages/themes/*
+packages/pbbp/*
+packages/eslint-plugin/*
+packages/**/*.less
+packages/**/*.css
