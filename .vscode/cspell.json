@@ -2,16 +2,12 @@
   //-------- Code Spell Checker Configuration --------
   // The Language local to use when spell checking. "en", "en-US" and "en-GB" are currently supported by default.
   "cSpell.language": "en",
-
   // Controls the maximum number of spelling errors per document.
   "cSpell.maxNumberOfProblems": 100,
-
   // Controls the number of suggestions shown.
   "cSpell.numSuggestions": 8,
-
   // The minimum length of a word before checking it against a dictionary.
   "cSpell.minWordLength": 4,
-
   // Specify file types to spell check.
   "cSpell.enabledLanguageIds": [
     "csharp",
@@ -25,25 +21,21 @@
     "typescriptreact",
     "yml"
   ],
-
   // Enable / Disable the spell checker.
   "cSpell.enabled": true,
-
   // Display the spell checker status on the status bar.
   "cSpell.showStatus": true,
-
   // Words to add to dictionary for a workspace.
   "cSpell.words": [],
-
   // Enable / Disable compound words like 'errormessage'
   "cSpell.allowCompoundWords": false,
-
   // Words to be ignored and not suggested.
-  "cSpell.ignoreWords": ["tplv", "elabpic"],
-
+  "cSpell.ignoreWords": [
+    "tplv",
+    "elabpic"
+  ],
   // User words to add to dictionary.  Should only be in the user settings.
   "cSpell.userWords": [],
-
   // Specify paths/files to ignore.
   "cSpell.ignorePaths": [
     "node_modules", // this will ignore anything the node_modules directory
@@ -55,12 +47,15 @@
     "*.dll", // Ignore all .dll files.
     "**/*.dll" // Ignore all .dll files
   ],
-
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
   // For example "hte" should be "the"`
-  "cSpell.flagWords": ["hte"],
-
+  "cSpell.flagWords": [
+    "hte"
+  ],
   // Set the delay before spell checking the document. Default is 50.
-  "cSpell.spellCheckDelayMs": 50
+  "cSpell.spellCheckDelayMs": 50,
+  "words": [
+    "keyof"
+  ]
 }
